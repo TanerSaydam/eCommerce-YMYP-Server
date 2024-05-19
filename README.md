@@ -6,29 +6,37 @@ Bu projede, detaylı bir ==eTicaret== uygulamasının backend kısmını, en iyi
 
 ## Projede kodlama yapan öğrencilerim:
 <ul>
-<li>
-<b>Cuma Köse</b> 💪
-<br>
-https://www.linkedin.com/in/turkmvc/
-</li>
+	<li>
+		<b>Cuma Köse</b> 💪
+		<br>
+		https://www.linkedin.com/in/turkmvc/
+	</li>
+	<li>
+		<b>Emre Can Topaloğlu</b> 💪
+		<br>
+		https://www.linkedin.com/in/emre-can-topalo%C4%9Flu-83a2b5119/
+	</li>
+	<li>
+		<b>Çağla Tunç Savaş</b> 💪
+		<br>
+		https://www.linkedin.com/in/%C3%A7a%C4%9Fla-tun%C3%A7-sava%C5%9F/
+	</li>
+	<li>
+		<b>Harun Gündoğmuş</b> 💪
+		<br>
+		https://www.linkedin.com/in/harun-g%C3%BCndo%C4%9Fmu%C5%9F-98a796170/
+	</li>
+	<li>
+		<b>Enes Demirtaş</b> 💪
+		<br>
+		https://www.linkedin.com/in/enesdemirtas4/
+	</li>
+	<li>
+		<b>Mehmet Can Ünaldı</b> 💪
+		<br>
+		https://www.linkedin.com/in/mcunaldi/
+	</li>
 </ul>
-
-
-- ==Emre Can Topaloğlu== 💪
-https://www.linkedin.com/in/emre-can-topalo%C4%9Flu-83a2b5119/
-
-- ==Çağla Tunç Savaş== 💪
-https://www.linkedin.com/in/%C3%A7a%C4%9Fla-tun%C3%A7-sava%C5%9F/
-
-- ==Harun Gündoğmuş== 💪
-https://www.linkedin.com/in/harun-g%C3%BCndo%C4%9Fmu%C5%9F-98a796170/
-
-- ==Enes Demirtaş== 💪
-https://www.linkedin.com/in/enesdemirtas4/
-
-- ==Mehmet Can Ünaldı== 💪
-https://www.linkedin.com/in/mcunaldi/
-
 
 ## Aşağıdaki teknoloji, kütüphane, pattern ve yaklaşımları kullanacağız:
 **Mimari**
