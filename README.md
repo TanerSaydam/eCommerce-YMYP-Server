@@ -90,3 +90,28 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 ```powershell
 docker run --name ecommercedb-postgres -e POSTGRES_PASSWORD=1 -e POSTGRES_DB=ecommercedb -d -p 5432:5432 postgres
 ```
+
+
+# Mehmet Can Ünaldı Taskları
+
+## Sorumluluk
+- Category - SubCategory mantığı olması, <b>(Mehmet Can Ünaldı)</b>
+
+## Entity yapısı
+```csharp
+public sealed class Category : Entity
+{	
+	public string Name { get; set; } = string.Empty;
+	public Guid? MainCategoryId { get; set; }
+	public Category? MainCategory { get; set; }
+}
+```
+
+## Task 
+<b>19.05.2024</b>
+<ol>
+	<li>Entity'i oluştur</li>
+	<li>DbContext'e DbSet ile bağla</li>
+	<li>Configuration dosyasını oluştur</li>
+	<li>Açıklama ile git üzerinden pushla</li>
+</ol>
