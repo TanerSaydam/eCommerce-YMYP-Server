@@ -1,0 +1,25 @@
+name: Create Pull Request on Push
+
+on:
+  push:
+    branches:
+      - '**' # Herhangi bir branch'e push yapıldığında tetiklenir
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create Pull Request
+        id: create_pull_request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Create Pull Request from ${{ github.ref }}
+          branch: ${{ github.ref }}
+          base: main # Hangi branch'e PR oluşturulacaksa onu belirleyin
+          title: 'Pull request from ${{ github.ref }}'
+          body: 'This PR is automatically generated from the branch ${{ github.ref }}'
