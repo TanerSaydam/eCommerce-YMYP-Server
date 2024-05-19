@@ -1,6 +1,6 @@
 ﻿# eCommerce YMYP Server Projesi 😊😊
-==YMYP öğrencilerimle== beraber kodlamaya başladığımız bir projedir.
-Bu projede, detaylı bir ==eTicaret== uygulamasının backend kısmını, en iyi uygulama yöntemlerini ve bilinen güçlü mimari yaklaşımları kullanarak, test edilebilir bir şekilde yazmaya başladık.
+<b style="background-color=yellow">YMYP öğrencilerimle</b> beraber kodlamaya başladığımız bir projedir.
+Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en iyi uygulama yöntemlerini ve bilinen güçlü mimari yaklaşımları kullanarak, test edilebilir bir şekilde yazmaya başladık.
 
 ## Proje başlangıç tarihi: 19.05.2024
 
