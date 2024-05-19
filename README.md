@@ -70,3 +70,17 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 - Scrutor
 - FluentAssertions (for Unit Test)
 - NSubstitute (for Unit Test)
+
+## Projenin genel yapısı
+- Proje eTicaret projesi olacak
+- Şirket bazlı ürün yüklenip satış yapılabileceği bir sistemimiz olmalı
+- Database olarak PostgreSQL kullanacağız
+
+
+## Projede olması gereken tablolar
+- Category - SubCategory mantığı olması, <b>(Mehmet Can Ünaldı)</b>
+- Company <b>(Cuma Köse)</b>
+- User <b>(Harun Gündoğdu)</b>
+- User'lar Company ile İlişki kurabilmeli (Bir kullanıcı bir şirketi yönetebilmeli) <b>(Harun Gündoğdu)</b>
+- Product - Category ile ilişkisi olmalı. (Bir ürün birden fazla category ile ilişkisi olabilmeli) <b>(Enes Demirtaş)</b> 
+- Shopping Cart <b>(Emre Can)</b>
