@@ -113,29 +113,29 @@ public sealed class Category : Entity
     <li>
         <del>Entity'i oluştur</del>
 		<br>
-		<span style="color: green;">Tamamlandı</span>
-		<br>
-		<span style="color: blue;">Kontrol Edildi</span>
+		Tamamlandı - 19.05.2024
+		<br> 
+		Kontrol Edildi - 19.05.2024
     </li>
     <li>
         <del>DbContext'e DbSet ile bağla</del> 
 		<br>
-		<span style="color: green;">Tamamlandı</span> 
+		Tamamlandı - 19.05.2024
 		<br> 
-		<span style="color: blue;">Kontrol Edildi</span>
+		Kontrol Edildi - 19.05.2024
     </li>
     <li>
         <del>Configuration dosyasını oluştur</del> 
+		<br>
+		Tamamlandı - 19.05.2024
 		<br> 
-		<span style="color: green;">Tamamlandı</span> 
-		<br> 
-		<span style="color: blue;">Kontrol Edildi</span>
+		Kontrol Edildi - 19.05.2024
     </li>
     <li>
         <del>Açıklama ile git üzerinden pushla</del> 
+		<br>
+		Tamamlandı - 19.05.2024
 		<br> 
-		<span style="color: green;">Tamamlandı</span> 
-		<br> 
-		<span style="color: blue;">Kontrol Edildi</span>
+		Kontrol Edildi - 19.05.2024
     </li>
 </ol>
