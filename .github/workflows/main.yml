@@ -23,8 +23,8 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Create Pull Request from ${{ github.ref }}
-          branch: ${{ github.ref }}
+          commit-message: 'Create Pull Request from ${{ github.head_ref }}'
+          branch: ${{ github.head_ref }}
           base: main # Hangi branch'e PR oluşturulacaksa onu belirleyin
-          title: 'Pull request from ${{ github.ref }}'
-          body: 'This PR is automatically generated from the branch ${{ github.ref }}'
+          title: 'Pull request from ${{ github.head_ref }}'
+          body: 'This PR is automatically generated from the branch ${{ github.head_ref }}'
