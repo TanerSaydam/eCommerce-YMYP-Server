@@ -5,8 +5,14 @@ Bu projede, detaylı bir ==eTicaret== uygulamasının backend kısmını, en iyi
 ## Proje başlangıç tarihi: 19.05.2024
 
 ## Projede kodlama yapan öğrencilerim:
-- ==Cuma Köse== 💪
+<ul>
+<li>
+<b>Cuma Köse</b> 💪
+<br>
 https://www.linkedin.com/in/turkmvc/
+</li>
+</ul>
+
 
 - ==Emre Can Topaloğlu== 💪
 https://www.linkedin.com/in/emre-can-topalo%C4%9Flu-83a2b5119/
