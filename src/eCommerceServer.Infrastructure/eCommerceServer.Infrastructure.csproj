@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
+    <ProjectReference Include="..\eCommerceServer.Domain\eCommerceServer.Domain.csproj" />
   </ItemGroup>
 
 </Project>
