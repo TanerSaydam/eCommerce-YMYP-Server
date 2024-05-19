@@ -110,8 +110,32 @@ public sealed class Category : Entity
 ## Task 
 <b>19.05.2024</b>
 <ol>
-	<li>Entity'i oluştur</li>
-	<li>DbContext'e DbSet ile bağla</li>
-	<li>Configuration dosyasını oluştur</li>
-	<li>Açıklama ile git üzerinden pushla</li>
+    <li>
+        <del>Entity'i oluştur</del>
+		<br>
+		<span style="color: green;">Tamamlandı</span>
+		<br>
+		<span style="color: blue;">Kontrol Edildi</span>
+    </li>
+    <li>
+        <del>DbContext'e DbSet ile bağla</del> 
+		<br>
+		<span style="color: green;">Tamamlandı</span> 
+		<br> 
+		<span style="color: blue;">Kontrol Edildi</span>
+    </li>
+    <li>
+        <del>Configuration dosyasını oluştur</del> 
+		<br> 
+		<span style="color: green;">Tamamlandı</span> 
+		<br> 
+		<span style="color: blue;">Kontrol Edildi</span>
+    </li>
+    <li>
+        <del>Açıklama ile git üzerinden pushla</del> 
+		<br> 
+		<span style="color: green;">Tamamlandı</span> 
+		<br> 
+		<span style="color: blue;">Kontrol Edildi</span>
+    </li>
 </ol>
