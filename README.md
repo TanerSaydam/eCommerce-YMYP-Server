@@ -84,3 +84,9 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 - User'lar Company ile İlişki kurabilmeli (Bir kullanıcı bir şirketi yönetebilmeli) <b>(Harun Gündoğdu)</b>
 - Product - Category ile ilişkisi olmalı. (Bir ürün birden fazla category ile ilişkisi olabilmeli) <b>(Enes Demirtaş)</b> 
 - Shopping Cart <b>(Emre Can)</b>
+
+## Kurulum notları
+- PostgreSQL Docker Kurulum Kodu:
+```powershell
+docker run --name ecommercedb-postgres -e POSTGRES_PASSWORD=1 -e POSTGRES_DB=ecommercedb -d -p 5432:5432 postgres
+```
