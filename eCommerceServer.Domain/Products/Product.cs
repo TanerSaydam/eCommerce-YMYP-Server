@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using eCommerceServer.Domain.Abstractions;
 
 namespace eCommerceServer.Domain.Products;
-internal class Product
+public sealed class Product : Entity
 {
 }
