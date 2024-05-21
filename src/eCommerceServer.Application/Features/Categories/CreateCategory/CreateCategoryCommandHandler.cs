@@ -12,7 +12,7 @@ internal sealed class CreateCategoryCommandHandler(
 {
     public async Task<Result<string>> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
     {
-        var isCategoryExists = await categoryRepository.AnyAsync(x => x.Name == new Name(request.Name), cancellationToken); 
+        var isCategoryExists = await categoryRepository.AnyAsync(x => x.Name == new Name(request.Name), cancellationToken);
         if (isCategoryExists)
         {
             return Result<string>.Failure("Category is already exists");
