@@ -167,20 +167,19 @@ public sealed class Category : Entity
 		Kontrol Edildi - 21.05.2024
 		<ol>
 			<li>
-			<del>Validation kontrolü olsun</del>
-			<br>
-			Tamamlandı - 21.05.2024
-			<br> 
-			Kontrol Edildi - 21.05.2024
+				<del>Validation kontrolü olsun</del>
+				<br>
+				Tamamlandı - 21.05.2024
+				<br> 
+				Kontrol Edildi - 21.05.2024
 			</li>
 			<li>
-			<del>Unique check olsun</del>
-			<br>
-			Tamamlandı - 21.05.2024
-			<br> 
-			Kontrol Edildi - 21.05.2024
-			</li>
-			
+				<del>Unique check olsun</del>
+				<br>
+				Tamamlandı - 21.05.2024
+				<br> 
+				Kontrol Edildi - 21.05.2024
+			</li>			
 		</ol>
 	</li>
 	<li>
