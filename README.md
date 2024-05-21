@@ -36,6 +36,21 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 		<br>
 		https://www.linkedin.com/in/mcunaldi/
 	</li>
+	<li>
+		<b>Muhammet Furkan Ayhan</b> 💪
+		<br>
+		https://www.linkedin.com/in/mfurkanayhan/
+	</li>
+	<li>
+		<b>Abdulmelik Öztunç</b> 💪
+		<br>
+		https://www.linkedin.com/in/abdulmelik-oztunc/
+	</li>
+	<li>
+		<b>Bünyamin Toparlı</b> 💪
+		<br>
+		https://www.linkedin.com/in/b%C3%BCnyamin-toparli-089346280/
+	</li>
 </ul>
 
 ## Aşağıdaki teknoloji, kütüphane, pattern ve yaklaşımları kullanacağız:
@@ -84,6 +99,10 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 - User'lar Company ile İlişki kurabilmeli (Bir kullanıcı bir şirketi yönetebilmeli) <b>(Harun Gündoğdu)</b>
 - Product - Category ile ilişkisi olmalı. (Bir ürün birden fazla category ile ilişkisi olabilmeli) <b>(Enes Demirtaş)</b> 
 - Shopping Cart <b>(Emre Can)</b>
+- Order <b>(Çağla)</b>
+- Ödeme Entegrasyonu <b>Muhammet Furkan Ayhan</b>
+- <b>Abdulmelik Öztunç'a Task Atanacak</b>
+- <b>Bünyamin Toparlı'ya Task Atanacak</b>
 
 ## Kurulum notları
 - PostgreSQL Docker Kurulum Kodu:
