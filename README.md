@@ -160,14 +160,38 @@ public sealed class Category : Entity
 <p><b>21.05.2024</b></p>
 <ol>
 	<li>
-		Category için Create metodu yaz
+		<del>Category için Create metodu yaz</del>
+		<br>
+		Tamamlandı - 21.05.2024
+		<br> 
+		Kontrol Edildi - 21.05.2024
 		<ol>
-			<li>Validation kontrolü olsun</li>
-			<li>Unique check olsun</li>
+			<li>
+			<del>Validation kontrolü olsun</del>
+			<br>
+			Tamamlandı - 21.05.2024
+			<br> 
+			Kontrol Edildi - 21.05.2024
+			</li>
+			<li>
+			<del>Unique check olsun</del>
+			<br>
+			Tamamlandı - 21.05.2024
+			<br> 
+			Kontrol Edildi - 21.05.2024
+			</li>
+			
 		</ol>
 	</li>
 	<li>
-		Category Create için endpoint yaz
+		<del>Category Create için endpoint yaz</del>
+		<br>
+		Tamamlandı - 21.05.2024
+		<br> 
+		Kontrol Edildi - 21.05.2024
+	</li>
+	<li>
+		Category Create için Unit Testler yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
@@ -181,6 +205,9 @@ public sealed class Category : Entity
 	</li>
 	<li>
 		Category Update için endpoint yaz
+	</li>
+	<li>
+		Category Update için Unit Testler yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
@@ -197,6 +224,9 @@ public sealed class Category : Entity
 		Category Delete için endpoint yaz
 	</li>
 	<li>
+		Category Delete için Unit Testler yaz
+	</li>
+	<li>
 		Açıklama ile git üzerinden pushla
 	</li>
 	<li>
@@ -204,6 +234,9 @@ public sealed class Category : Entity
 	</li>
 	<li>
 		Category GetAll için endpoint yaz
+	</li>
+	<li>
+		Category GetAll için Unit Testler yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
