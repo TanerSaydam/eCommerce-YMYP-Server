@@ -91,7 +91,6 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 docker run --name ecommercedb-postgres -e POSTGRES_PASSWORD=1 -e POSTGRES_DB=ecommercedb -d -p 5432:5432 postgres
 ```
 
-
 # Mehmet Can Ünaldı Taskları
 
 ## Sorumluluk
@@ -106,9 +105,8 @@ public sealed class Category : Entity
 	public Category? MainCategory { get; set; }
 }
 ```
-
 ## Task 
-<b>19.05.2024</b>
+<p><b>19.05.2024</b></p>
 <ol>
     <li>
         <del>Entity'i oluştur</del>
@@ -138,4 +136,170 @@ public sealed class Category : Entity
 		<br> 
 		Kontrol Edildi - 19.05.2024
     </li>
+</ol>
+
+<p><b>21.05.2024</b></p>
+<ol>
+	<li>
+		Category için Create metodu yaz
+		<ol>
+			<li>Validation kontrolü olsun</li>
+			<li>Unique check olsun</li>
+		</ol>
+	</li>
+	<li>
+		Category Create için endpoint yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Category için Update metodu yaz
+		<ol>
+			<li>Validation kontrolü olsun</li>
+			<li>Eğer isim değiştiyse Unique check olsun</li>
+		</ol>
+	</li>
+	<li>
+		Category Update için endpoint yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Category için Delete metodu yaz
+		<ol>
+			<li>
+				Direkt delete edilmesin IsDeleted seçeneği false olsun
+			</li>
+		</ol>
+	</li>
+	<li>
+		Category Delete için endpoint yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Category için GetAll metodu yaz		
+	</li>
+	<li>
+		Category GetAll için endpoint yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+</ol>
+
+
+# Cuma Köse Taskları
+
+## Sorumluluk
+- Company <b>(Cuma Köse)</b>
+
+## Entity yapısı
+```csharp
+public sealed class Company : Entity
+{	
+	public string Name { get; set; } = string.Empty;
+	public string TaxDepartment { get; set; } = string.Empty;
+	public string TaxNumber { get; set; } = string.Empty;
+	public string City { get; set; } = string.Empty;
+	public string Town { get; set; } = string.Empty;
+	public string Street { get; set; } = string.Empty;
+	public string FullAddress { get; set; } = string.Empty;	
+}
+```
+
+## Task 
+<p><b>21.05.2024</b></p>
+<ol>
+	<li>
+		Entity oluştur 
+		<ol>
+			<li>
+				Tax kısmı Value object olsun
+			</li>
+			<li>
+				Tax Department bir SmartEnum'dan gelsin
+			</li>
+			<li>
+				Tax Number 10-11 karakter arasında olsun
+			</li>
+		</ol>
+	</li>
+	<li>
+		DbContext'e DbSet ile bağla
+	</li>
+	<li>
+		Configuration dosyasını oluştur
+		<ol>
+			<li>
+				Tax Number unique olmalı ve 10-11 karakter arasında olmalı
+			</li>
+		</ol>
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Company Create metodu yaz
+		<ol>
+			<li>
+				Validation kontrolü yaz
+			</li>
+			<li>
+				TaxNumber için Unique check yap
+			</li>
+		</ol>
+	</li>
+	<li>
+		Company Create endpointi yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Company Update metodu yaz
+		<ol>
+			<li>
+				Validation kontrolü yaz
+			</li>
+			<li>
+				TaxNumber değiştirilemesin, sadece yönetici bu kısmı updat edebilsin
+			</li>
+		</ol>
+	</li>
+	<li>
+		Company Update endpointi yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Company Delete metodu yaz
+		<ol>
+			<li>
+				Direkt delete edilmesin IsDeleted seçeneği false olsun
+			</li>
+		</ol>
+	</li>
+	<li>
+		Company Update endpointi yaz
+	</li>
+	<li>
+		Company Delete için endpoint yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushla
+	</li>
+	<li>
+		Company için GetAll metodu yaz		
+	</li>
+	<li>
+		Company GetAll için endpoint yaz
+	</li>
+	<li>
+		Company ile git üzerinden pushla
+	</li>
 </ol>
