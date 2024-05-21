@@ -12,5 +12,7 @@ public sealed class CategoryConfiguration : IEntityTypeConfiguration<Category>
             .HasConversion(name => name.Value, value => new Name(value))
             .IsRequired()
             .HasColumnType("varchar(50)");
+
+        builder.HasQueryFilter(x => !x.IsDeleted);
     }
 }

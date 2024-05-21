@@ -7,6 +7,7 @@ public abstract class Entity
         Id = Guid.NewGuid();
     }
     public Guid Id { get; set; }
+    public bool IsDeleted { get; set; } = false;
 
     public override bool Equals(object? obj)
     {
