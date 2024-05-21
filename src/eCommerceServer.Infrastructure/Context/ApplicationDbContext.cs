@@ -1,11 +1,12 @@
 ﻿using eCommerceServer.Domain.Categories;
+using GenericRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace eCommerceServer.Infrastructure.Context;
 
-internal sealed class ApplicationDbContext : IdentityDbContext<IdentityUser<Guid>, IdentityRole<Guid>, Guid>
+internal sealed class ApplicationDbContext : IdentityDbContext<IdentityUser<Guid>, IdentityRole<Guid>, Guid>, IUnitOfWork
 {
     public ApplicationDbContext(DbContextOptions options) : base(options)
     {

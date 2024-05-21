@@ -19,8 +19,4 @@
     <ProjectReference Include="..\eCommerceServer.Infrastructure\eCommerceServer.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>

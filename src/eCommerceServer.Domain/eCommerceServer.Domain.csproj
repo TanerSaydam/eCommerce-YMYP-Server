@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="8.0.1" />
+  </ItemGroup>
+
 </Project>
