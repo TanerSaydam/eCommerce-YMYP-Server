@@ -190,14 +190,14 @@ public sealed class Category : Entity
 		Kontrol Edildi - 21.05.2024
 	</li>
 	<li>
-		Category Create için Unit Testler yaz
+		<del>Category Create için Unit Testler yaz</del>
 		<br>
 		Tamamlandı - 23.05.2024
 		<br> 
 		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
 		<br>
 		Tamamlandı - 23.05.2024
 		<br> 
