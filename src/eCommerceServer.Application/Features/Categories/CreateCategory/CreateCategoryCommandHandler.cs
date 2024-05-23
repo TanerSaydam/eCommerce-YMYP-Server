@@ -5,7 +5,7 @@ using MediatR;
 using TS.Result;
 
 namespace eCommerceServer.Application.Features.Categories.CreateCategory;
-internal sealed class CreateCategoryCommandHandler(
+public sealed class CreateCategoryCommandHandler(
     ICategoryRepository categoryRepository,
     IMapper mapper,
     IUnitOfWork unitOfWork) : IRequestHandler<CreateCategoryCommand, Result<string>>
