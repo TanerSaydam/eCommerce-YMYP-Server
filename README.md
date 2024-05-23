@@ -204,20 +204,48 @@ public sealed class Category : Entity
 		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Category için Update metodu yaz
+		<del>Category için Update metodu yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 		<ol>
-			<li>Validation kontrolü olsun</li>
-			<li>Eğer isim değiştiyse Unique check olsun</li>
+			<li>
+				<del>Validation kontrolü olsun</del>
+				<br>
+				Tamamlandı - 23.05.2024
+				<br> 
+				Kontrol Edildi - 23.05.2024
+			</li>
+			<li>
+				<del>Eğer isim değiştiyse Unique check olsun</del>
+				<br>
+				Tamamlandı - 23.05.2024
+				<br> 
+				Kontrol Edildi - 23.05.2024
+			</li>
 		</ol>
 	</li>
 	<li>
-		Category Update için endpoint yaz
+		<del>Category Update için endpoint yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Category Update için Unit Testler yaz
+		<del>Category Update için Unit Testler yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
 		Category için Delete metodu yaz
