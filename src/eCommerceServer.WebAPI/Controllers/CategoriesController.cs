@@ -1,4 +1,5 @@
 ﻿using eCommerceServer.Application.Features.Categories.CreateCategory;
+using eCommerceServer.Application.Features.Categories.UpdateCategory;
 using eCommerceServer.WebAPI.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,13 @@ public class CategoriesController : ApiController
 
     [HttpPost]
     public async Task<IActionResult> Create(CreateCategoryCommand request, CancellationToken cancellationToken)
+    {
+        var result = await _mediator.Send(request, cancellationToken);
+        return StatusCode(result.StatusCode, result);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Update(UpdateCategoryCommand request, CancellationToken cancellationToken)
     {
         var result = await _mediator.Send(request, cancellationToken);
         return StatusCode(result.StatusCode, result);
