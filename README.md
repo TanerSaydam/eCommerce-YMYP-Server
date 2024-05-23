@@ -251,7 +251,7 @@ public sealed class Category : Entity
 		Category için Delete metodu yaz
 		<ol>
 			<li>
-				Direkt delete edilmesin IsDeleted seçeneği false olsun
+				Direkt delete edilmesin IsDeleted seçeneği true olsun
 			</li>
 		</ol>
 	</li>
@@ -367,7 +367,7 @@ public sealed class Company : Entity
 		Company Delete metodu yaz
 		<ol>
 			<li>
-				Direkt delete edilmesin IsDeleted seçeneği false olsun
+				Direkt delete edilmesin IsDeleted seçeneği true olsun
 			</li>
 		</ol>
 	</li>
