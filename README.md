@@ -191,9 +191,17 @@ public sealed class Category : Entity
 	</li>
 	<li>
 		Category Create için Unit Testler yaz
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
 		Category için Update metodu yaz
