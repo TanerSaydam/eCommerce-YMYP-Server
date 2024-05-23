@@ -248,21 +248,41 @@ public sealed class Category : Entity
 		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Category için Delete metodu yaz
+		<del>Category için Delete metodu yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 		<ol>
 			<li>
-				Direkt delete edilmesin IsDeleted seçeneği true olsun
+				<del>Direkt delete edilmesin IsDeleted seçeneği true olsun</del>
+				<br>
+				Tamamlandı - 23.05.2024
+				<br> 
+				Kontrol Edildi - 23.05.2024
 			</li>
 		</ol>
 	</li>
 	<li>
-		Category Delete için endpoint yaz
+		<del>Category Delete için endpoint yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Category Delete için Unit Testler yaz
+		<del>Category Delete için Unit Testler yaz</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 23.05.2024
+		<br> 
+		Kontrol Edildi - 23.05.2024
 	</li>
 	<li>
 		Category için GetAll metodu yaz		
