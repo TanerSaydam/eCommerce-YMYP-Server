@@ -40,7 +40,7 @@ public class DeleteByIdTests
     public async Task DeleteById_ReturnIsSuccessfulTrue_WhenCategoryIsDeleted()
     {
         //Arrange
-        var category = new Category { Id = guid, MainCategoryId = null, Name = new("Domates"), IsDeleted = false };
+        var category = new Category { Id = guid, MainCategoryId = null, Name = new("Elektronik"), IsDeleted = false };
         var command = new DeleteCategoryByIdCommand(guid);
         categoryRepository.GetByExpressionAsync(Arg.Any<Expression<Func<Category, bool>>>()).Returns(category);
 
