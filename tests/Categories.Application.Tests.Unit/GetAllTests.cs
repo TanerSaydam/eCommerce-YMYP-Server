@@ -1,13 +1,10 @@
-﻿using AutoMapper;
-using eCommerceServer.Application;
+﻿using eCommerceServer.Application;
 using eCommerceServer.Application.Features.Categories.GetAllCategory;
 using eCommerceServer.Domain.Categories;
 using FluentAssertions;
-using FluentValidation;
-using GenericRepository;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using MockQueryable.NSubstitute;
 using NSubstitute;
 
 namespace Categories.Application.Tests.Unit;
@@ -32,17 +29,29 @@ public class GetAllTests
     }
 
     [Fact]
-
     public async Task GetAll_ShouldReturnEmpty_WhenCategoryListEmpty()
     {
-        //Arrange
+        // Arrange
         var query = new GetAllCategoryQuery();
-        categoryRepository.GetAll().Include(x=> x.MainCategory).ToListAsync(default).Returns(new List<Category>());
+        var emptyCategoryList = new List<Category>()
+        {
+            new Category()
+            {
+                Id = Guid.NewGuid(),
+                IsDeleted = false,
+                MainCategoryId = null,
+                Name = new("Elektronik")
+            }
+        }.AsQueryable().BuildMock();
 
-        //Act
+        categoryRepository
+            .GetAll()
+            .Returns(emptyCategoryList);
+
+        // Act
         var result = await sut.Send(query, default);
 
-        //Assert
+        // Assert
         result.Data!.Count().Should().Be(0);
     }
 
