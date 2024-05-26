@@ -1,5 +1,5 @@
-﻿using eCommerceServer.Application.Behaviors;
-using eCommerceServer.Application.Features.Categories.CreateCategory;
+﻿using eCommerceServer.Application;
+using eCommerceServer.Application.Behaviors;
 using eCommerceServer.Application.Features.Categories.RemoveCategory;
 using eCommerceServer.Domain.Categories;
 using FluentAssertions;
@@ -10,7 +10,6 @@ using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
 using NSubstitute.ReturnsExtensions;
 using System.Linq.Expressions;
-using TS.Result;
 
 namespace Categories.Application.Tests.Unit;
 public class DeleteByIdTests
@@ -26,12 +25,11 @@ public class DeleteByIdTests
 
         services.AddTransient(_ => categoryRepository);
         services.AddTransient(_ => unitOfWork);
-        services.AddTransient<IRequestHandler<CreateCategoryCommand, Result<string>>, CreateCategoryCommandHandler>();
 
-        services.AddValidatorsFromAssemblyContaining<CreateCategoryCommandValidator>();
+        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
         services.AddMediatR(cfg =>
         {
-            cfg.RegisterServicesFromAssemblyContaining<CreateCategoryCommand>();
+            cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
             cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         });
 

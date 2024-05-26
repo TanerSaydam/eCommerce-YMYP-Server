@@ -1,4 +1,5 @@
 using AutoMapper;
+using eCommerceServer.Application;
 using eCommerceServer.Application.Behaviors;
 using eCommerceServer.Application.Features.Categories.CreateCategory;
 using eCommerceServer.Domain.Categories;
@@ -9,7 +10,6 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
 using System.Linq.Expressions;
-using TS.Result;
 
 namespace Categories.Application.Tests.Unit;
 
@@ -27,12 +27,11 @@ public class CreateTests
         services.AddTransient(_ => categoryRepository);
         services.AddTransient(_ => mapper);
         services.AddTransient(_ => unitOfWork);
-        services.AddTransient<IRequestHandler<CreateCategoryCommand, Result<string>>, CreateCategoryCommandHandler>();
 
-        services.AddValidatorsFromAssemblyContaining<CreateCategoryCommandValidator>();
+        services.AddValidatorsFromAssembly(typeof(DependencyInjection).Assembly);
         services.AddMediatR(cfg =>
         {
-            cfg.RegisterServicesFromAssemblyContaining<CreateCategoryCommand>();
+            cfg.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly);
             cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         });
 
