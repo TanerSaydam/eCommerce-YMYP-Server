@@ -33,6 +33,25 @@ public class GetAllTests
     {
         // Arrange
         var query = new GetAllCategoryQuery();
+        var emptyCategoryList = new List<Category>().AsQueryable().BuildMock();
+
+        categoryRepository
+            .GetAll()
+            .Returns(emptyCategoryList);
+
+        // Act
+        var result = await sut.Send(query, default);
+
+        // Assert
+        result.Data!.Count().Should().Be(0);
+    }
+
+
+    [Fact]
+    public async Task GetAll_ShouldReturnList_WhenCategoryListHaveCategories()
+    {
+        // Arrange
+        var query = new GetAllCategoryQuery();
         var emptyCategoryList = new List<Category>()
         {
             new Category()
@@ -52,7 +71,7 @@ public class GetAllTests
         var result = await sut.Send(query, default);
 
         // Assert
-        result.Data!.Count().Should().Be(0);
+        result.Data!.Count().Should().Be(1);
     }
 
 }
