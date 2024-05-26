@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Ardalis.SmartEnum" Version="8.0.0" />
     <PackageReference Include="TS.EntityFrameworkCore.GenericRepository" Version="8.0.1" />
   </ItemGroup>
 
