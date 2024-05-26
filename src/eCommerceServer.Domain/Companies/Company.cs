@@ -1,4 +1,5 @@
 ﻿using eCommerceServer.Domain.Abstractions;
+using eCommerceServer.Domain.Shared;
 
 namespace eCommerceServer.Domain.Companies;
 public sealed class Company : Entity

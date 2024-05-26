@@ -1,4 +1,5 @@
 ﻿using eCommerceServer.Domain.Abstractions;
+using eCommerceServer.Domain.Shared;
 
 namespace eCommerceServer.Domain.Categories;
 public sealed class Category : Entity

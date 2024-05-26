@@ -1,4 +1,5 @@
-﻿using FluentValidation;
+﻿using eCommerceServer.Application.Utilities;
+using FluentValidation;
 using MediatR;
 using TS.Result;
 
@@ -18,11 +19,12 @@ public class CreateCompanyCommandValidator : AbstractValidator<CreateCompanyComm
     {
         RuleFor(p => p.Name)
             .MinimumLength(3);
-        
-        //RuleFor(p )
+
+        RuleFor(p => p.TaxDepartmentValue)
+            .TaxDepartmentValueMustBeValid();
 
         RuleFor(p => p.TaxNumber)
-            .MinimumLength(10);
+            .TaxNumberMustBeValid();
 
         RuleFor(p => p.Country)
             .MinimumLength(3);
@@ -32,5 +34,16 @@ public class CreateCompanyCommandValidator : AbstractValidator<CreateCompanyComm
 
         RuleFor(p => p.Town)
             .MinimumLength(3);
+
+
+    }
+}
+
+
+internal sealed class CreateCompanyCommandHandler : IRequestHandler<CreateCompanyCommand, Result<string>>
+{
+    public Task<Result<string>> Handle(CreateCompanyCommand request, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
     }
 }

@@ -1,5 +1,5 @@
 ﻿using eCommerceServer.Domain.Categories;
-using eCommerceServer.Domain.Companies;
+using eCommerceServer.Domain.Shared;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

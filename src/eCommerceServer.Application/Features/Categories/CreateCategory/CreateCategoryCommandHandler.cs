@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using eCommerceServer.Domain.Categories;
+using eCommerceServer.Domain.Shared;
 using GenericRepository;
 using MediatR;
 using TS.Result;
