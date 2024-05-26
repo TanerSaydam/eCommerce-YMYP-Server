@@ -13,7 +13,7 @@ internal sealed class GetAllCategoryQueryHandler(
             await categoryRepository
             .GetAll()
             .Include(x=> x.MainCategory)
-            .ToListAsync();
+            .ToListAsync(cancellationToken);
 
         return Result<List<Category>>.Succeed(categories);
     }
