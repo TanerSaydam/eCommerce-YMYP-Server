@@ -10,7 +10,7 @@ internal sealed class DeleteCategoryByIdCommandHandler(
 {
     public async Task<Result<string>> Handle(DeleteCategoryByIdCommand request, CancellationToken cancellationToken)
     {
-        Category category = await categoryRepository.GetByExpressionAsync(x => x.Id == request.Id);
+        Category category = await categoryRepository.GetByExpressionAsync(x => x.Id == request.Id, cancellationToken);
         if (category is null)
         {
             return Result<string>.Failure("Category not found");

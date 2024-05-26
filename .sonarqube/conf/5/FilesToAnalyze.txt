@@ -1,0 +1,4 @@
+﻿C:\eCommerce-YMYP-Server\src\eCommerceServer.Domain\Abstractions\Entity.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Domain\Categories\Category.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Domain\Categories\ICategoryRepository.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Domain\Categories\Name.cs

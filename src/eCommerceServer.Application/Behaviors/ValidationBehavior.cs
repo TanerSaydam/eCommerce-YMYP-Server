@@ -36,7 +36,7 @@ public sealed class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<
             })
             .ToDictionary(s => s.Key, s => s.Values[0]);
 
-        if (errorDictionary.Any())
+        if (errorDictionary.Count > 0)
         {
             var errors = errorDictionary.Select(s => new ValidationFailure
             {

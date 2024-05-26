@@ -1,0 +1,10 @@
+﻿C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\Abstractions\ApiController.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\Controllers\CategoriesController.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\Program.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\obj\Debug\net8.0\eCommerceServer.WebAPI.GlobalUsings.g.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\obj\Debug\net8.0\eCommerceServer.WebAPI.AssemblyInfo.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\obj\Debug\net8.0\eCommerceServer.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\appsettings.Development.json
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\appsettings.json
+C:\eCommerce-YMYP-Server\src\eCommerceServer.WebAPI\Properties\launchSettings.json

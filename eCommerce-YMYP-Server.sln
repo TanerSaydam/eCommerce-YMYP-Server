@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerceServer.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eCommerceServer.WebAPI", "src\eCommerceServer.WebAPI\eCommerceServer.WebAPI.csproj", "{729FE64E-259E-4F00-BDE1-A529A948CD24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Categories.Application.Tests.Unit", "tests\Categories.Application.Tests.Unit\Categories.Application.Tests.Unit.csproj", "{E83F832A-A7EE-445E-B0D4-D075F6970359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Categories.Application.Tests.Unit", "tests\Categories.Application.Tests.Unit\Categories.Application.Tests.Unit.csproj", "{E83F832A-A7EE-445E-B0D4-D075F6970359}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

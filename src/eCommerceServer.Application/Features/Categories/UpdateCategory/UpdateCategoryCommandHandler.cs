@@ -5,14 +5,14 @@ using MediatR;
 using TS.Result;
 
 namespace eCommerceServer.Application.Features.Categories.UpdateCategory;
-internal sealed class UpdateCategoryHandler(
+internal sealed class UpdateCategoryCommandHandler(
     ICategoryRepository categoryRepository,
     IMapper mapper,
     IUnitOfWork unitOfWork) : IRequestHandler<UpdateCategoryCommand, Result<string>>
 {
     public async Task<Result<string>> Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
     {
-        Category? category = await categoryRepository.GetByExpressionAsync(x=> x.Id == request.Id, cancellationToken);
+        Category? category = await categoryRepository.GetByExpressionAsync(x => x.Id == request.Id, cancellationToken);
         if (category is null)
         {
             return Result<string>.Failure("Category not found");
@@ -27,12 +27,9 @@ internal sealed class UpdateCategoryHandler(
             }
         }
 
-        if (request.MainCategoryId is not null)
+        if (request.MainCategoryId is not null && request.Id == request.MainCategoryId)
         {
-            if (request.Id == request.MainCategoryId)
-            {
-                return Result<string>.Failure("Main category cannot be itself");
-            }
+            return Result<string>.Failure("Main category cannot be itself");
         }
 
         mapper.Map(request, category);

@@ -43,7 +43,7 @@ public class GetAllTests
         var result = await sut.Send(query, default);
 
         // Assert
-        result.Data!.Count().Should().Be(0);
+        result.Data!.Count.Should().Be(0);
     }
 
 
@@ -71,7 +71,7 @@ public class GetAllTests
         var result = await sut.Send(query, default);
 
         // Assert
-        result.Data!.Count().Should().Be(1);
+        result.Data!.Count.Should().Be(1);
     }
 
 }

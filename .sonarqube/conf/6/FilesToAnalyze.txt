@@ -1,0 +1,13 @@
+﻿C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Behaviors\ValidationBehavior.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\DependencyInjection.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\CreateCategory\CreateCategoryCommand.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\CreateCategory\CreateCategoryCommandHandler.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\CreateCategory\CreateCategoryCommandValidator.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\DeleteCategoryById\DeleteCategoryByIdCommand.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\DeleteCategoryById\DeleteCategoryByIdCommandHandler.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\GetAllCategory\GetAllCategoryQuery.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\GetAllCategory\GetAllCategoryQueryHandler.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\UpdateCategory\UpdateCategoryCommand.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\UpdateCategory\UpdateCategoryCommandHandler.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Features\Categories\UpdateCategory\UpdateCategoryCommandValidator.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Application\Mapping\MappingProfile.cs

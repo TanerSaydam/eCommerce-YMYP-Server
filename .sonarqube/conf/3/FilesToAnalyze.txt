@@ -1,0 +1,11 @@
+﻿C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Configurations\CategoryConfiguration.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Context\ApplicationDbContext.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\DependencyInjection.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240519190740_database_olusturma.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240519190740_database_olusturma.Designer.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240519195007_category-entity-olusturuldu.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240519195007_category-entity-olusturuldu.Designer.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240521182443_entity_kismina_isdeleted_alani_eklendi.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\20240521182443_entity_kismina_isdeleted_alani_eklendi.Designer.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\eCommerce-YMYP-Server\src\eCommerceServer.Infrastructure\Repositories\CategoryRepository.cs
