@@ -94,7 +94,7 @@ Bu projede, detaylı bir <b>eTicaret</b> uygulamasının backend kısmını, en 
 
 ## Projede olması gereken tablolar
 - Category - SubCategory mantığı olması, <b>(Mehmet Can Ünaldı)</b>
-- Company <b>(Cuma Köse)</b>
+- Company <b>(Cuma Köse) & (Harun Gündoğdu)</b>
 - User <b>(Harun Gündoğdu)</b>
 - User'lar Company ile İlişki kurabilmeli (Bir kullanıcı bir şirketi yönetebilmeli) <b>(Harun Gündoğdu)</b>
 - Product - Category ile ilişkisi olmalı. (Bir ürün birden fazla category ile ilişkisi olabilmeli) <b>(Enes Demirtaş)</b> 
@@ -124,6 +124,7 @@ public sealed class Category : Entity
 	public Category? MainCategory { get; set; }
 }
 ```
+
 ## Task 
 <p><b>19.05.2024</b></p>
 <ol>
@@ -338,7 +339,11 @@ public sealed class Company : Entity
 <p><b>21.05.2024</b></p>
 <ol>
 	<li>
-		Entity oluştur 
+		<del>Entity oluştur</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 		<ol>
 			<li>
 				Tax kısmı Value object olsun
@@ -352,7 +357,11 @@ public sealed class Company : Entity
 		</ol>
 	</li>
 	<li>
-		DbContext'e DbSet ile bağla
+		<del>DbContext'e DbSet ile bağla</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 	</li>
 	<li>
 		Configuration dosyasını oluştur
@@ -363,10 +372,18 @@ public sealed class Company : Entity
 		</ol>
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 	</li>
 	<li>
-		Company Create metodu yaz
+		<del>Company Create metodu yaz</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 		<ol>
 			<li>
 				Validation kontrolü yaz
@@ -377,10 +394,34 @@ public sealed class Company : Entity
 		</ol>
 	</li>
 	<li>
-		Company Create endpointi yaz
+		<del>Company Create endpointi yaz</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
+	</li>	
+</ol>
+
+# Harun Gündoğmuş
+
+## Sorumluluk
+- Company <b>(Harun Gündoğmuş)</b>
+
+## Task 
+<p><b>21.05.2024</b></p>
+<ol>
+	<li>
+		Compoany Create için Unit Test yaz
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushl
 	</li>
 	<li>
 		Company Update metodu yaz
@@ -397,6 +438,9 @@ public sealed class Company : Entity
 		Company Update endpointi yaz
 	</li>
 	<li>
+		Compoany Update için Unit Test yaz
+	</li>
+	<li>
 		Açıklama ile git üzerinden pushla
 	</li>
 	<li>
@@ -406,12 +450,12 @@ public sealed class Company : Entity
 				Direkt delete edilmesin IsDeleted seçeneği true olsun
 			</li>
 		</ol>
-	</li>
-	<li>
-		Company Update endpointi yaz
-	</li>
+	</li>	
 	<li>
 		Company Delete için endpoint yaz
+	</li>
+	<li>
+		Compoany Delete için Unit Test yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
@@ -421,6 +465,9 @@ public sealed class Company : Entity
 	</li>
 	<li>
 		Company GetAll için endpoint yaz
+	</li>
+	<li>
+		Compoany GetAll için Unit Test yaz
 	</li>
 	<li>
 		Company ile git üzerinden pushla
