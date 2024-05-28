@@ -1,5 +1,7 @@
-﻿using eCommerceServer.Application.Utilities;
-using FluentValidation;
+﻿using AutoMapper;
+using eCommerceServer.Domain.Companies;
+using eCommerceServer.Domain.Shared;
+using GenericRepository;
 using MediatR;
 using TS.Result;
 
@@ -13,37 +15,27 @@ public sealed record CreateCompanyCommand(
     string Town,
     string Street) : IRequest<Result<string>>;
 
-public class CreateCompanyCommandValidator : AbstractValidator<CreateCompanyCommand>
+
+internal sealed class CreateCompanyCommandHandler
+    (
+        ICompanyRepository companyRepository,
+        IMapper mapper,
+        IUnitOfWork unitOfWork
+    ): IRequestHandler<CreateCompanyCommand, Result<string>>
 {
-    public CreateCompanyCommandValidator()
+    public async Task<Result<string>> Handle(CreateCompanyCommand request, CancellationToken cancellationToken)
     {
-        RuleFor(p => p.Name)
-            .MinimumLength(3);
+        var isTaxNumberExists = await companyRepository.AnyAsync(p => p.TaxNumber == new TaxNumber(request.TaxNumber), cancellationToken);
+        if (isTaxNumberExists)
+        {
+            return Result<string>.Failure("Bu vergi numarası | tc kimlik numarası daha önce kaydedilmiş");
+        }
 
-        RuleFor(p => p.TaxDepartmentValue)
-            .TaxDepartmentValueMustBeValid();
+        var company = mapper.Map<Company>(request);
 
-        RuleFor(p => p.TaxNumber)
-            .TaxNumberMustBeValid();
+        await companyRepository.AddAsync(company, cancellationToken);
+        await unitOfWork.SaveChangesAsync(cancellationToken);
 
-        RuleFor(p => p.Country)
-            .MinimumLength(3);
-
-        RuleFor(p => p.City)
-            .MinimumLength(3);
-
-        RuleFor(p => p.Town)
-            .MinimumLength(3);
-
-
-    }
-}
-
-
-internal sealed class CreateCompanyCommandHandler : IRequestHandler<CreateCompanyCommand, Result<string>>
-{
-    public Task<Result<string>> Handle(CreateCompanyCommand request, CancellationToken cancellationToken)
-    {
-        throw new NotImplementedException();
+        return "Şirket kaydı başarı ile kaydedildi.";
     }
 }
