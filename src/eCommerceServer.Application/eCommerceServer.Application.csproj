@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\eCommerceServer.Domain\eCommerceServer.Domain.csproj" />
 	<InternalsVisibleTo Include="Categories.Application.Tests.Unit" />
+	<InternalsVisibleTo Include="Companies.Application.Tests.Unit" />
   </ItemGroup>
 
 </Project>

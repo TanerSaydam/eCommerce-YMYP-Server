@@ -24,7 +24,5 @@ public class CreateCompanyCommandValidator : AbstractValidator<CreateCompanyComm
 
         RuleFor(p => p.Town)
             .MinimumLength(3);
-
-
     }
 }
