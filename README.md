@@ -407,6 +407,16 @@ public sealed class Company : Entity
 		<br> 
 		Kontrol Edildi - 26.05.2024
 	</li>	
+	<li>
+		<del>Company Create için Unit Test yaz</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
+	</li>
+	<li>
+		Açıklama ile git üzerinden pushl
+	</li>
 </ol>
 
 # Harun Gündoğmuş
@@ -416,13 +426,7 @@ public sealed class Company : Entity
 
 ## Task 
 <p><b>21.05.2024</b></p>
-<ol>
-	<li>
-		Compoany Create için Unit Test yaz
-	</li>
-	<li>
-		Açıklama ile git üzerinden pushl
-	</li>
+<ol>	
 	<li>
 		Company Update metodu yaz
 		<ol>
@@ -438,7 +442,7 @@ public sealed class Company : Entity
 		Company Update endpointi yaz
 	</li>
 	<li>
-		Compoany Update için Unit Test yaz
+		Company Update için Unit Test yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
@@ -455,7 +459,7 @@ public sealed class Company : Entity
 		Company Delete için endpoint yaz
 	</li>
 	<li>
-		Compoany Delete için Unit Test yaz
+		Company Delete için Unit Test yaz
 	</li>
 	<li>
 		Açıklama ile git üzerinden pushla
@@ -467,7 +471,7 @@ public sealed class Company : Entity
 		Company GetAll için endpoint yaz
 	</li>
 	<li>
-		Compoany GetAll için Unit Test yaz
+		Company GetAll için Unit Test yaz
 	</li>
 	<li>
 		Company ile git üzerinden pushla
