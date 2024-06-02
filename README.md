@@ -364,10 +364,18 @@ public sealed class Company : Entity
 		Kontrol Edildi - 26.05.2024
 	</li>
 	<li>
-		Configuration dosyasını oluştur
+		<del>Configuration dosyasını oluştur</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 		<ol>
 			<li>
-				Tax Number unique olmalı ve 10-11 karakter arasında olmalı
+				<del>Tax Number unique olmalı ve 10-11 karakter arasında olmalı</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 		</ol>
 	</li>
@@ -386,10 +394,18 @@ public sealed class Company : Entity
 		Kontrol Edildi - 26.05.2024
 		<ol>
 			<li>
-				Validation kontrolü yaz
+				<del>Validation kontrolü yaz</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 			<li>
-				TaxNumber için Unique check yap
+				<del>TaxNumber için Unique check yap</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 		</ol>
 	</li>
@@ -415,7 +431,11 @@ public sealed class Company : Entity
 		Kontrol Edildi - 26.05.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushl
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 26.05.2024
+		<br> 
+		Kontrol Edildi - 26.05.2024
 	</li>
 </ol>
 
