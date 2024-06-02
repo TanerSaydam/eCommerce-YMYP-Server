@@ -428,24 +428,48 @@ public sealed class Company : Entity
 <p><b>21.05.2024</b></p>
 <ol>	
 	<li>
-		Company Update metodu yaz
+		<del>Company Update metodu yaz</del>
+		<br>
+		Tamamlandı - 02.06.2024
+		<br> 
+		Kontrol Edildi - 02.06.2024
 		<ol>
 			<li>
-				Validation kontrolü yaz
+				</del>Validation kontrolü yaz</del>
+				<br>
+				Tamamlandı - 02.06.2024
+				<br> 
+				Kontrol Edildi - 02.06.2024
 			</li>
 			<li>
-				TaxNumber değiştirilemesin, sadece yönetici bu kısmı updat edebilsin
+				<del>TaxNumber değiştirilemesin, sadece yönetici bu kısmı updat edebilsin</del>
+				<br>
+				Tamamlandı - 02.06.2024
+				<br> 
+				Kontrol Edildi - 02.06.2024
 			</li>
 		</ol>
 	</li>
 	<li>
-		Company Update endpointi yaz
+		<del>Company Update endpointi yaz</del>
+		<br>
+		Tamamlandı - 02.06.2024
+		<br> 
+		Kontrol Edildi - 02.06.2024
 	</li>
 	<li>
-		Company Update için Unit Test yaz
+		<del>Company Update için Unit Test yaz</del>
+		<br>
+		Tamamlandı - 02.06.2024
+		<br> 
+		Kontrol Edildi - 02.06.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 02.06.2024
+		<br> 
+		Kontrol Edildi - 02.06.2024
 	</li>
 	<li>
 		Company Delete metodu yaz
