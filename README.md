@@ -455,7 +455,7 @@ public sealed class Company : Entity
 		Kontrol Edildi - 02.06.2024
 		<ol>
 			<li>
-				</del>Validation kontrolü yaz</del>
+				<del>Validation kontrolü yaz</del>
 				<br>
 				Tamamlandı - 02.06.2024
 				<br> 
