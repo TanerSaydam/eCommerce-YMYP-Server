@@ -346,13 +346,25 @@ public sealed class Company : Entity
 		Kontrol Edildi - 26.05.2024
 		<ol>
 			<li>
-				Tax kısmı Value object olsun
+				<del>Tax kısmı Value object olsun</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 			<li>
-				Tax Department bir SmartEnum'dan gelsin
+				<del>Tax Department bir SmartEnum'dan gelsin</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 			<li>
-				Tax Number 10-11 karakter arasında olsun
+				<del>Tax Number 10-11 karakter arasında olsun</del>
+				<br>
+				Tamamlandı - 26.05.2024
+				<br> 
+				Kontrol Edildi - 26.05.2024
 			</li>
 		</ol>
 	</li>
@@ -492,21 +504,41 @@ public sealed class Company : Entity
 		Kontrol Edildi - 02.06.2024
 	</li>
 	<li>
-		Company Delete metodu yaz
+		<del>Company Delete metodu yaz</del>
+		<br>
+		Tamamlandı - 04.06.2024
+		<br> 
+		Kontrol Edildi - 04.06.2024
 		<ol>
 			<li>
-				Direkt delete edilmesin IsDeleted seçeneği true olsun
+				<del>Direkt delete edilmesin IsDeleted seçeneği true olsun</del>
+				<br>
+				Tamamlandı - 04.06.2024
+				<br> 
+				Kontrol Edildi - 04.06.2024
 			</li>
 		</ol>
 	</li>	
 	<li>
-		Company Delete için endpoint yaz
+		<del>Company Delete için endpoint yaz</del>
+		<br>
+		Tamamlandı - 04.06.2024
+		<br> 
+		Kontrol Edildi - 04.06.2024
 	</li>
 	<li>
-		Company Delete için Unit Test yaz
+		<del>Company Delete için Unit Test yaz</del>
+		<br>
+		Tamamlandı - 04.06.2024
+		<br> 
+		Kontrol Edildi - 04.06.2024
 	</li>
 	<li>
-		Açıklama ile git üzerinden pushla
+		<del>Açıklama ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 04.06.2024
+		<br> 
+		Kontrol Edildi - 04.06.2024
 	</li>
 	<li>
 		Company için GetAll metodu yaz		
