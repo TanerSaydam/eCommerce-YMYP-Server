@@ -541,15 +541,31 @@ public sealed class Company : Entity
 		Kontrol Edildi - 04.06.2024
 	</li>
 	<li>
-		Company için GetAll metodu yaz		
+		<del>Company için GetAll metodu yaz</del>
+		<br>
+		Tamamlandı - 09.06.2024
+		<br> 
+		Kontrol Edildi - 09.06.2024
 	</li>
 	<li>
-		Company GetAll için endpoint yaz
+		<del>Company GetAll için endpoint yaz</del>
+		<br>
+		Tamamlandı - 09.06.2024
+		<br> 
+		Kontrol Edildi - 09.06.2024
 	</li>
 	<li>
-		Company GetAll için Unit Test yaz
+		<del>Company GetAll için Unit Test yaz</del>
+		<br>
+		Tamamlandı - 09.06.2024
+		<br> 
+		Kontrol Edildi - 09.06.2024
 	</li>
 	<li>
-		Company ile git üzerinden pushla
+		<del>Company ile git üzerinden pushla</del>
+		<br>
+		Tamamlandı - 09.06.2024
+		<br> 
+		Kontrol Edildi - 09.06.2024
 	</li>
 </ol>
