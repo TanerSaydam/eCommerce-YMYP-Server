@@ -4,6 +4,7 @@ using eCommerceServer.Application.Features.Categories.RemoveCategory;
 using eCommerceServer.Application.Features.Categories.UpdateCategory;
 using eCommerceServer.Application.Features.Companies.CreateCompany;
 using eCommerceServer.Application.Features.Companies.DeleteCompanyById;
+using eCommerceServer.Application.Features.Companies.GetAllCompany;
 using eCommerceServer.Application.Features.Companies.UpdateCompany;
 
 namespace eCommerceServer.WebAPI.Utilities;
@@ -20,7 +21,7 @@ public sealed record ApiMethod(string ControllerName, string ActionName, Type Bo
             new("Companies","Create",typeof(CreateCompanyCommand)),
             new("Companies","Update",typeof(UpdateCompanyCommand)),
             new("Companies","DeleteById",typeof(DeleteCompanyByIdCommand)),
-            //new("Categories","GetAll",typeof(GetAllCategoryQuery)),
+            new("Companies", "GetAll", typeof(GetAllCompanyQuery))
         };
 }
 
