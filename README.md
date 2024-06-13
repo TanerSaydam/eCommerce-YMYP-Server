@@ -569,3 +569,40 @@ public sealed class Company : Entity
 		Kontrol Edildi - 09.06.2024
 	</li>
 </ol>
+
+## Sorumluluk
+- User <b>(Harun Gündoğmuş)</b>
+
+## Entity yapısı
+```csharp
+public sealed class User : IdentityUser<Guid>
+{	
+	public string FirstName { get; set; } = string.Empty;
+	public string LastName { get; set; } = string.Empty;
+}
+```
+
+## Task 
+<p><b>13.06.2024</b></p>
+<ol>	
+	<li>
+		Register metodu yaz
+		<ol>
+			<li>
+				Validation kontrolü yaz
+			</li>
+			<li>
+				UserName ve Email'in unique kontrolü yazılacak
+			</li>
+		</ol>
+	</li>
+
+	<li>
+		Login metodu yaz
+		<ol>
+			<li>
+				Validation kontrolü yaz
+			</li>
+		</ol>
+	</li>
+</ol>
